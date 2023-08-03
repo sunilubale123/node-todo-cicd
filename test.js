@@ -12,7 +12,7 @@ after(() => {
 });
 	
 // We can add nested blocks for different tests
-describe( "Test1", () => {
+describe( "Test11", () => {
 	beforeEach(() => {
 	console.log( "executes before every test" );
 	});
@@ -26,7 +26,7 @@ describe( "Test1", () => {
 	});
 });
 
-describe("Test2", () => {
+describe("Test22", () => {
 	beforeEach(() => {
 	console.log( "executes before every test" );
 	});
